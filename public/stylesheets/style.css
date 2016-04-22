@@ -1,0 +1,39 @@
+body {
+  padding: 50px;
+  text-align: center;
+  background-image: url("http://41.media.tumblr.com/c603990ce2060f53937e2aa0d8c2ce78/tumblr_njhl25Xm641tga488o1_1280.png");
+
+}
+
+#detailedMessage {
+  background-color: white;
+}
+h1 {
+  font-size: 50px;
+}
+
+a {
+}
+
+th {
+  font-size: 32px;
+}
+
+table {
+  background-color: white;
+  font-size: 22px;
+  margin-left: 10%;
+  padding-right: 15%;
+}
+
+#newMessage {
+  font-size: 26px;
+}
+
+.row {
+  padding-bottom: 10px;
+}
+
+.container {
+  background-color: white;
+}

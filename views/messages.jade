@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div
+    table.table.table-hover
+      thead
+        tr: th Messages 
+        
+      tbody
+        each message in messageArr
+          tr
+            td From: #{message.name} 
+            td 
+              a(href='/messages/details/' +  '#{message.email}') See message
+  div
+    br
+    h3
+      a#newMessage(href="/messages/postNewMessage") Post a New Message  

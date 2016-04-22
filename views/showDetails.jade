@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div#detailedMessage
+    h1 #{getMessage.notes}
+    h2 #{getMessage.name}
+    h3 #{getMessage.email}
+    h4 #{getMessage.phone}
+
+  br
+  br
+  div#returnToList
+    h3
+      a(href="/messages") Return to message board

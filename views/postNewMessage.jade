@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  div.container
+    div.row
+      h1 Add a new message:
+    div
+    #messageInput.row
+     form#newMessage.form-group
+       div.row
+         div.col-md-12
+           label Name:  
+           input.form-control#name(type='text', size='55', required)
+          div.col-md-12
+           label Email address: 
+           input.form-control#email(type='text', size='55', required)
+       div.row
+         div.col-md-12
+           label Phone number: 
+           input.form-control#phone(type='text', size='55', required)
+          div.col-md-12
+           label Message: 
+           input.form-control#notes(type='textarea', rows='10')
+       br
+       input#submit.btn.btn-info(type='submit', value='Submit')
+       br
+       br
+       br
+       h3 
+         a(href="/messages") Go back to message board
+
+block scripts
+  script(src="/javascripts/newMessage.js")
