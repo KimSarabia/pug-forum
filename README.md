@@ -1,3 +1,2 @@
-# expressContactList
-
-a contact list app made using express and jade
+#Message Boards
+A Message Board for Pug Lovers
