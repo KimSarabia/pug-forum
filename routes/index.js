@@ -3,7 +3,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Pug Lovers Message Board' });
+    res.render('index', {
+        title: 'Pug Lovers Message Board'
+    });
 });
 
 module.exports = router;
